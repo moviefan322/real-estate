@@ -56,7 +56,7 @@ function Listing() {
       >
         {listing.imgUrls.map((url, index) => (
           <SwiperSlide key={index}>
-            <img width="500px" src={listing.imgUrls[index]} alt="image" />
+            <img width="500px" src={listing.imgUrls[index]} alt="house" />
           </SwiperSlide>
         ))}
       </Swiper>
